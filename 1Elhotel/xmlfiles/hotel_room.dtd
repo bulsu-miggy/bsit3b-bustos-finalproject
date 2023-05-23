@@ -1,0 +1,9 @@
+<!ELEMENT rooms (room+)>
+<!ELEMENT room (roomId,room_description,price,media)>
+<!ELEMENT roomId (#PCDATA)>
+<!ELEMENT room_description (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT media (#PCDATA)>
+
+<!ATTLIST room category CDATA #REQUIRED>
+<!ATTLIST media type CDATA #IMPLIED>

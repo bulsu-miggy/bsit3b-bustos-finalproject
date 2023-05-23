@@ -1,0 +1,9 @@
+<!ELEMENT dishes (dish+)>
+<!ELEMENT dish (dishId,dish_name,price,media)>
+<!ELEMENT dishId (#PCDATA)>
+<!ELEMENT dish_name (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT media (#PCDATA)>
+
+<!ATTLIST dish category CDATA #REQUIRED>
+<!ATTLIST media type CDATA #IMPLIED>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE dishes SYSTEM "hotel_dish.dtd">
+<dishes><dish category="Main dish"><dishId>1</dishId><dish_name>Stake</dish_name><price>30.00</price><media type="image">stake.png</media></dish><dish category="Fast food"><dishId>2</dishId><dish_name>Pizza</dish_name><price>29.99</price><media type="image">pizza.png</media></dish><dish category="Drinks"><dishId>3</dishId><dish_name>Juice</dish_name><price>29.99</price><media type="image">drink.png</media></dish><dish category="Deserts"><dishId>4</dishId><dish_name>Ice Cream</dish_name><price>30.00</price><media type="image">dessert.png</media></dish><dish category=""><dishId>5</dishId><dish_name>Spaghetti</dish_name><price>35.99</price><media type="image">dish-1.png</media></dish></dishes>
