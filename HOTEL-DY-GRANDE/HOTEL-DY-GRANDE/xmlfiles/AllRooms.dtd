@@ -1,0 +1,11 @@
+<!ELEMENT rooms (room+)>
+<!ELEMENT room (ID, RoomType, RoomName, MaxAdult, MaxChild, RoomDesc, NoofBed, Image, RoomFacility)>
+<!ELEMENT ID (#PCDATA)>
+<!ELEMENT RoomType (#PCDATA)>
+<!ELEMENT RoomName (#PCDATA)>
+<!ELEMENT MaxAdult (#PCDATA)>
+<!ELEMENT MaxChild (#PCDATA)>
+<!ELEMENT RoomDesc (#PCDATA)>
+<!ELEMENT NoofBed (#PCDATA)>
+<!ELEMENT Image (#PCDATA)>
+<!ELEMENT RoomFacility (#PCDATA)>
